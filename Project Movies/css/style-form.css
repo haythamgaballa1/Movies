@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #27272c;
+}
+
+.all
+{
+    
+    padding: 5px;
+    margin: 5px 3px;
+    border-radius: 5px;
+
+}
+
+.form
+{
+    width: 376px;
+    margin: 300px auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #686870;
+    /* box-shadow: 3px 3px 3px rgb(202, 202, 202) , -3px -3px 3px rgb(202, 202, 202); */
+}
+.form input
+{
+    width: 357px;
+    outline: none;
+    display: block;
+    border: solid .3px rgb(182, 182, 182);
+}
+.form input:focus
+{
+    border: solid .3px #1877f2;
+    outline: solid .2px #7eb5fc;
+
+}
+.form .pass 
+{
+    position: relative;
+}
+.form .pass .icon
+{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.form .pass .icon .fa-eye-slash
+{
+    display: none;
+}
+.form .one
+{
+    width: 367px;
+    background-color: #3b5475;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.form .one:hover
+{
+    background-image:linear-gradient(180deg ,#2d3a4e,#283341);
+
+}
+.form a
+{
+    margin: 8px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.form a:hover
+{
+    text-decoration: underline;
+}
+
+.form hr
+{
+    margin: 5px;
+    border: solid rgb(184, 182, 182) .2px;
+}
+.form .two
+{
+    padding: 8px;
+    border: none;
+    background-color: #21441a;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+.form .two:hover
+{
+    background-image: linear-gradient(180deg,#315827,#b8bdc4);
+}
